@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #efefef;
+
+}
+.header{
+    background: url("bg.png");
+    background-size: cover;
+    height: 500px;
+
+}
+/* Using Inline block we can set all the elements on a single line  */
+#logo{
+    display: inline-block;
+    position: absolute;
+    left: 90px;
+    top: 35px;
+}
+#search{
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    right: 25%;
+}
+#search input{
+    width: 500px;
+    padding: 4px 4px;
+    background: inherit;
+    color: white;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: none;
+    border-bottom: 5px  solid  white;
+    outline-style: none ;
+}
+#logo img{
+    height: 35px;
+}
+#profile{
+    display: inline-block;
+    position: absolute;
+    right: 90px;
+    top: 35px;
+}
+
+#profile img{
+    height: 35px;
+}
+.stroke{
+
+    text-align: center;
+    position: relative;
+    top: 140px;
+
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color:white ;
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke: 2.5px white ;
+}
+
+.content{
+    /* Flex is use for container  */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: #000033;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list img{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+}
+.list img:hover{
+    width: 280px;
+    height: 280px;
+    border-radius: 50px;
+}
+
+.head{
+    text-align: center;
+    text-decoration:underline;
+    /* text-shadow: 1.5px 1.5px 1.5px #cb741b; */
+    font-size: 40px;
+    color: black;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn{
+    display: inline-block;
+    position: absolute;
+    top: 350px;
+    left: 39%;
+    height: 70px;
+    width: 300px;
+    padding: 4px  4px;
+    font-size: 16px;
+    background-color: rgb(228, 23, 142);
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    width: 330px;
+    background-color: darkgreen;
+}
+.tag{
+    position: relative;
+    bottom: -23%;
+    font-size: 28px;
+    color: white;
+    font-family: 'Gugi', cursive;
+}
+.tag img{
+    width: 35px; 
+    filter: invert(100%); 
+}
+.connect{
+    padding-top: 40px;
+}
+.connect img{
+    width: 35px;
+    filter: invert(100%); 
+    padding-left: 18px;
+    padding-right: 8px;
+}
+.connect img:hover{
+    width:40px; 
+    filter:initial;
+}
+.footer{
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    background-color: #3b3939;
+    height: 200px;
+    width: 100% ;  
+}
+.movieName{
+    margin-top: 15px;
+    max-width: 250px ;
+    cursor: pointer;
+}
